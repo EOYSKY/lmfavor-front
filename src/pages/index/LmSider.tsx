@@ -1,10 +1,10 @@
-import React from 'react';
+import React,{FC} from 'react';
 import { Layout, Menu } from 'antd';
 import { UserOutlined, LaptopOutlined, NotificationOutlined } from '@ant-design/icons';
 const { Sider } = Layout;
 const { SubMenu } = Menu;
 
-const LmSider: React.FC = props => {
+const LmSider: FC = props => {
     return (
         <Sider width={200} className="site-layout-background">
             <Menu

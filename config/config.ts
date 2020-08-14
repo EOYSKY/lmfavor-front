@@ -15,6 +15,7 @@ const config: IConfig = {
                     component: '../layouts/BasicLayout' ,
                     routes: [
                         { path: '/', component: '../pages/index/DefaultContent' },
+                        { path: '/user/login', component: '../pages/user/UserLogin' },
                     ]
                 },
             ]

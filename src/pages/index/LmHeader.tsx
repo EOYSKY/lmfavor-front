@@ -7,7 +7,7 @@ const { Header } = Layout;
 const LmHeader: React.FC = props => {
     return (
         <Header className="styles.index-header">
-            <Link to="/">
+            <Link to="/user/login">
                 <Button style={{ float: "right", margin: 14 }}>登录</Button>
             </Link>
 
