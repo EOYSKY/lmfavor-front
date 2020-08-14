@@ -5,3 +5,10 @@ html, body, #root {
 body {
   margin: 0;
 }
+.index-header {
+  background-color: red;
+}
+.index-button {
+  float: right;
+  margin: 14px;
+}
